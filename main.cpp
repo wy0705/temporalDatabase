@@ -1,6 +1,5 @@
-#include <iostream>
+/*#include <iostream>
+#include <hash_map>
+#include "fputcget.cpp"
+#include "hash_map.cpp"*/
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}

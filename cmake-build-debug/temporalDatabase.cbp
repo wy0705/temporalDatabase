@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wy/CLionProjects/temporalDatabase/hash_map.cpp">
+			<Option target="temporalDatabase"/>
+		</Unit>
+		<Unit filename="/home/wy/CLionProjects/temporalDatabase/hash_map.h">
+			<Option target="temporalDatabase"/>
+		</Unit>
 		<Unit filename="/home/wy/CLionProjects/temporalDatabase/main.cpp">
 			<Option target="temporalDatabase"/>
 		</Unit>

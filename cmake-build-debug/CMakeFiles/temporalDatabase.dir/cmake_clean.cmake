@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/temporalDatabase.dir/hash_map.cpp.o"
   "CMakeFiles/temporalDatabase.dir/main.cpp.o"
   "temporalDatabase"
   "temporalDatabase.pdb"

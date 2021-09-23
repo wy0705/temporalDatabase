@@ -143,6 +143,33 @@ temporalDatabase/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/temporalDatabase.dir/build.make CMakeFiles/temporalDatabase.dir/build
 .PHONY : temporalDatabase/fast
 
+hash_map.o: hash_map.cpp.o
+
+.PHONY : hash_map.o
+
+# target to build an object file
+hash_map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/temporalDatabase.dir/build.make CMakeFiles/temporalDatabase.dir/hash_map.cpp.o
+.PHONY : hash_map.cpp.o
+
+hash_map.i: hash_map.cpp.i
+
+.PHONY : hash_map.i
+
+# target to preprocess a source file
+hash_map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/temporalDatabase.dir/build.make CMakeFiles/temporalDatabase.dir/hash_map.cpp.i
+.PHONY : hash_map.cpp.i
+
+hash_map.s: hash_map.cpp.s
+
+.PHONY : hash_map.s
+
+# target to generate assembly for a file
+hash_map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/temporalDatabase.dir/build.make CMakeFiles/temporalDatabase.dir/hash_map.cpp.s
+.PHONY : hash_map.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... temporalDatabase"
+	@echo "... hash_map.o"
+	@echo "... hash_map.i"
+	@echo "... hash_map.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

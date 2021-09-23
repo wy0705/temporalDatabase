@@ -94,12 +94,12 @@ clean: CMakeFiles/temporalDatabase.dir/clean
 CMakeFiles/temporalDatabase.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/temporalDatabase.dir/build.make CMakeFiles/temporalDatabase.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/temporalDatabase.dir/build.make CMakeFiles/temporalDatabase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wy/CLionProjects/temporalDatabase/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target temporalDatabase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wy/CLionProjects/temporalDatabase/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target temporalDatabase"
 .PHONY : CMakeFiles/temporalDatabase.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/temporalDatabase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wy/CLionProjects/temporalDatabase/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wy/CLionProjects/temporalDatabase/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/temporalDatabase.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wy/CLionProjects/temporalDatabase/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/temporalDatabase.dir/rule

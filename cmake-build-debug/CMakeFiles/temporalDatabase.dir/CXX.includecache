@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wy/CLionProjects/temporalDatabase/fputcget.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+cstring
+-
+
+/home/wy/CLionProjects/temporalDatabase/hash_map.cpp
+hash_map
+-
+iostream
+-
+cstring
+-
+fputcget.cpp
+/home/wy/CLionProjects/temporalDatabase/fputcget.cpp
+
+/home/wy/CLionProjects/temporalDatabase/main.cpp
+hash_map
+-
+fputcget.cpp
+/home/wy/CLionProjects/temporalDatabase/fputcget.cpp
+hash_map.cpp
+/home/wy/CLionProjects/temporalDatabase/hash_map.cpp
+
